@@ -1,19 +1,21 @@
-# Project Showcase
+<!DOCTYPE html>
+<html>
+<head>
+    <meta property="og:image" content="https://i.postimg.cc/fRtPzQGd/Picsart-26-06-04-16-14-50-784.jpg">
+    <meta property="og:title" content="Project Showcase">
+    
+    <script type="text/javascript">
+        var mobileLink = "https://rose-canary-11v65r8.mystrikingly.com/";
+        var desktopLink = "https://news.google.com";
 
-<div align="center">
-
-<img src="https://i.postimg.cc/hPt6dZvR/ee382b12-b91a-4341-8728-aa494370322c.jpg" alt="Project Image" width="500">
-
-### Click below based on your device:
-
-<br>
-
-<a href="https://rose-canary-11v65r8.mystrikingly.com/">
-  <img src="https://img.shields.io/badge/Mobile-View_Landing_Page-blue?style=for-the-badge&logo=android" alt="Mobile Link">
-</a>
-
-<a href="https://news.google.com">
-  <img src="https://img.shields.io/badge/Desktop-Go_to_Google_News-green?style=for-the-badge&logo=google-news" alt="Desktop Link">
-</a>
-
-</div>
+        if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            window.location.href = mobileLink;
+        } else {
+            window.location.href = desktopLink;
+        }
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
